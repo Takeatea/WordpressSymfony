@@ -90,7 +90,6 @@ git checkout 3.8.x
 
 **Nicolas Assing**
 
-+ http://fr.linkedin.com/pub/nicolas-assing/21/3b3/769
 + http://twitter.com/nicolassing
 + http://github.com/nicolassing
 
