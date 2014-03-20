@@ -90,12 +90,12 @@ git checkout 3.8.x
 
 **Nicolas Assing**
 
-+ [fr.linkedin.com/pub/nicolas-assing/21/3b3/769](fr.linkedin.com/pub/nicolas-assing/21/3b3/769)
++ http://fr.linkedin.com/pub/nicolas-assing/21/3b3/769
 + http://twitter.com/nicolassing
 + http://github.com/nicolassing
 
 
 ### 7) Copyright and license
 
-Copyright 2013 [Take a tea](http://takeatea.com "Take a tea")  
+Copyright 2014 [Take a tea](http://takeatea.com "Take a tea")  
 Brewed by Take a tea ;)
