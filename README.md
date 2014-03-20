@@ -64,7 +64,7 @@ Copy and paste the response into your `wp-config.php` file, from line 53 to 60.
 
 Here is the latest step: check your website
 
-+ Go to your `your_wp_website.com/wp-admin`
++ Go to your `your_wp_website.com/wordpress/wp-admin`
 + Log in to your admin panel
 
 That's all to begin working with the **Tea way to Wordpress**
