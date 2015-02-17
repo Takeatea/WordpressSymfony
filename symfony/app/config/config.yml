@@ -58,3 +58,12 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+# EkinoWordpressBundle configuration
+ekino_wordpress:
+    table_prefix: wp_ # If you have a specific Wordpress table prefix
+    wordpress_directory: %kernel.root_dir%/../../wordpress # If you have a specific Wordpress directory structure
+    # load_twig_extension: true # If you want to enable native WordPress functions (ie : get_option() => wp_get_option())
+    security:
+        firewall_name: secured_area # This is the firewall default name
+        login_url: "/wp-login.php" # Absolute URL to the wordpress login page
