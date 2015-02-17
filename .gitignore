@@ -1,11 +1,19 @@
 .DS_Store
+.idea
 wp-config.php
-/*
-!wp-content
-wp-content/*
-!wp-content/themes
-!wp-content/uploads
-wp-content/themes/*
-wp-content/uploads/*
-!wp-content/themes/twentyfourteen
 
+/wp-content/uploads/*
+!/wp-content/uploads/.gitkeep
+
+/symfony/web/bundles/
+/symfony/app/bootstrap.php.cache
+/symfony/app/cache/*
+/symfony/app/config/parameters.yml
+/symfony/app/logs/*
+!/symfonyapp/cache/.gitkeep
+!/symfonyapp/logs/.gitkeep
+/symfony/app/phpunit.xml
+/symfony/build/
+/symfony/vendor/
+/symfony/bin/
+/symfony/composer.phar
