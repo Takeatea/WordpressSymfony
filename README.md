@@ -23,5 +23,17 @@ git remote set-url origin git@myhost/my-repo.git
 git push -u origin master
 ```
 
+### Upgrade Wordpress version
+In order to upgrade your Wordpress version, run the following commands (replace the correct tag value) :
+```bash
+cd wordpress
+git fetch origin --tags # Will fetch new tags
+git pull --rebase tags/<tag-version-to-use>
+cd ../
+git add wordpress
+git commit -m "Upgraded Wordpress version"
+git push -u origin master
+```
+
 ### Recomandations
 In order to have a better control on wordpress core, wordpress plugins, or wordpress themes, we advice to disable backend user upgrades and to use them as submodules.
