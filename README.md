@@ -16,5 +16,12 @@ Your document root must be point to `./symfony/web` directory. The index file sh
 ## Misc
 For further configuration, please read the [EkinoWordpressBundle documentation](https://github.com/ekino/EkinoWordpressBundle).
 
+### Versionning
+In order to push the code to your own repository, run the following command :
+```bash
+git remote set-url origin git@myhost/my-repo.git
+git push -u origin master
+```
+
 ### Recomandations
 In order to have a better control on wordpress core, wordpress plugins, or wordpress themes, we advice to disable backend user upgrades and to use them as submodules.
